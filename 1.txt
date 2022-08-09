@@ -1,4 +1,3 @@
-Aprender a importar para o gitHUb
 O que eu vou aprender na Trybe:
 
 - Unix
