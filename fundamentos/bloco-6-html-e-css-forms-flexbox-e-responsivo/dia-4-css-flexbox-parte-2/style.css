@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    order: -1;
+  }
+  
+  .menu-container {
+    display: flex;
+    width: 500px;
+    flex-grow: 1;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+    flex-basis: 700px;
+    flex-grow: 10;
+
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid red;
+    
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    flex-basis: 16%; 
+    flex-grow: 1;
+   
+  }
+  
+  .aside-container {
+    align-self: center;
+    display: flex;
+    flex-basis: 350px;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+   
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;;
+
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+    ;
+  }
